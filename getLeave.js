@@ -66,7 +66,7 @@ var user = {
       {
         "reason" : "",
         "position" : "电子信息学院",
-        "time" : "05.06 20:59",
+        "time" : "",
         "head" : "https://wx.qlogo.cn/mmopen/vi_32/gkBfq7qzH1On4TBIEXkHArOy29q6X7kybqVJ4LaFSF1qOsuguy1In6AKsw9ia3WODoTMia1H6kibDE1ib4uuFHAPwQ/132",
         "userType" : 3,
         "name" : "刘许",
