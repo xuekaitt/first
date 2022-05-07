@@ -27,7 +27,7 @@ var user = {
     //指定假期开始时间结束时间 格式 "2021-06-28 10:00"
     //不指定则默认开始时间为当前 前1小时，结束时间当前 后2小时，不同时间打开会改变
     "start": "2022-05-07 8:00",
-    "end": "2022-05-08 22:00",
+    "end": "2022-05-08 20:00",
 
     "state": 2,//假条状态 2应该是假期中
     "out": 1,//是否离校 1是 0否
@@ -72,7 +72,7 @@ var user = {
         "name" : "",
         "state" : 2
       }
-    ]
+    ],
 };
 
 Date.prototype.format=function(fmt){var o={"M+":this.getMonth()+1,"d+":this.getDate(),"h+":this.getHours(),"m+":this.getMinutes(),"s+":this.getSeconds(),"q+":Math.floor((this.getMonth()+3)/3),"S":this.getMilliseconds()};if(/(y+)/.test(fmt)){fmt=fmt.replace(RegExp.$1,(this.getFullYear()+"").substr(4-RegExp.$1.length))};for(var k in o){if(new RegExp("("+k+")").test(fmt)){fmt=fmt.replace(RegExp.$1,(RegExp.$1.length==1)?(o[k]):(("00"+o[k]).substr((""+o[k]).length)))}};return fmt};
