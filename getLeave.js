@@ -58,7 +58,7 @@ var user = {
         "reason" : "",
         "position" : "电子信息学院",
         "time" : "05.06 20:41",
-        "head" : "https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoSQjfu3dob8A5LicTiaMNibm9WOflY4iaBJYDozpLd4lHBCcGjV1Uzf4PoAJQFMECJiaRwj2j82ibsrIDA/132",
+        "head" : "",
         "userType" : 4,
         "name" : "",
         "state" : 2
@@ -68,7 +68,7 @@ var user = {
         "position" : "",
         "time" : "05.06 21:01",
         "head" : "",
-        "userType" : ,
+        "userType" : 3,
         "name" : "",
         "state" : 2
         }
