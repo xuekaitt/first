@@ -50,7 +50,7 @@ var user = {
 
     //下面这两条作用不明，懒得测试
     "scanHistory": [],//留空不变
-    "imgs": ["https://img-blog.csdnimg.cn/f88b3c9d39724617928c4754b8006e0f.png"],//留空不变
+    "imgs": ["https://img-blog.csdnimg.cn/fd2e54fd29ae4f729b5e614ed7c4db7e.png"],//留空不变
 
     "teacher": "",//老师姓名，留空不变
     "approve" : [
