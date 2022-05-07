@@ -100,6 +100,12 @@ if (user["approve"][0]["time"] == "") {//批假时间 前一天随机时刻
     user["approve"][0]["time"] = getFormatTime(time, 2);
 };
 
+if (user["approve"][1]["time"] == "") {//批假时间 前一天随机时刻
+    time.setHours(Math.floor(Math.random() * (22 - 9 + 1) + 9), Math.floor(Math.random() * 60));
+    time.setDate(time.getDate() - 1);
+    user["approve"][1]["time"] = getFormatTime(time, 2);
+};
+
 bd = lx.toObj($response.body);
 data = bd["data"];
 
