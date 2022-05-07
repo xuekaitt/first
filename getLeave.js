@@ -55,15 +55,23 @@ var user = {
     "teacher": "",//老师姓名，留空不变
     "approve": [
         {
-            "time": "05.06 20:41",//审批时间，留空随机生成，格式12.21 11:10
-
-            "state": 2,//审核状态 3拒绝 2通过 1审批中
-            "userType": 4,//老师身份，4为辅导员，3为院级，2为校级
-            "name": "",//老师姓名，留空不变
-            "reason": "",//审批理由，留空不变
-            "position": "",//老师学院，留空不变
-            "head": ""//老师头像，默认随机，留空不变
-        }
+        "reason" : "",
+        "position" : "电子信息学院",
+        "time" : "05.06 20:41",
+        "head" : "https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoSQjfu3dob8A5LicTiaMNibm9WOflY4iaBJYDozpLd4lHBCcGjV1Uzf4PoAJQFMECJiaRwj2j82ibsrIDA/132",
+        "userType" : 4,
+        "name" : "赵立涛",
+        "state" : 2
+      },
+      {
+        "reason" : "",
+        "position" : "电子信息学院",
+        "time" : "05.06 21:01",
+        "head" : "https://wx.qlogo.cn/mmopen/vi_32/gkBfq7qzH1On4TBIEXkHArOy29q6X7kybqVJ4LaFSF1qOsuguy1In6AKsw9ia3WODoTMia1H6kibDE1ib4uuFHAPwQ/132",
+        "userType" : 3,
+        "name" : "刘许",
+        "state" : 2
+      }
     ]
 };
 
