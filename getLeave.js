@@ -53,25 +53,25 @@ var user = {
     "imgs": [],//留空不变
 
     "teacher": "",//老师姓名，留空不变
-    "approve": [
-        {
+    "approve" : [
+      {
         "reason" : "",
         "position" : "电子信息学院",
         "time" : "05.06 20:31",
-        "head" : "",
+        "head" : "https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoSQjfu3dob8A5LicTiaMNibm9WOflY4iaBJYDozpLd4lHBCcGjV1Uzf4PoAJQFMECJiaRwj2j82ibsrIDA/132",
         "userType" : 4,
-        "name" : "",
+        "name" : "赵立涛",
         "state" : 2
-        },
-        {
+      },
+      {
         "reason" : "",
-        "position" : "",
-        "time" : "05.06 21:01",
-        "head" : "",
+        "position" : "电子信息学院",
+        "time" : "05.06 20:59",
+        "head" : "https://wx.qlogo.cn/mmopen/vi_32/gkBfq7qzH1On4TBIEXkHArOy29q6X7kybqVJ4LaFSF1qOsuguy1In6AKsw9ia3WODoTMia1H6kibDE1ib4uuFHAPwQ/132",
         "userType" : 3,
-        "name" : "",
+        "name" : "刘许",
         "state" : 2
-        }
+      }
     ]
 };
 
